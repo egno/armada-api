@@ -8,6 +8,8 @@ REST API for integration between external services:
 
 ## How to start via docker
 
+Fill configuration variables in config.py
+
     docker build -t armada-api .
 
     docker run -d --restart=always --net=host --name=armada-api armada-api
